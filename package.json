@@ -1,0 +1,25 @@
+{
+	"name": "aeap-speech-to-text",
+	"description": "asterisk external speech to text application",
+	"version": "0.1.0",
+	"homepage": "https://github.com/asterisk/aeap-speech-to-text#README.md",
+	"main": "./index.js",
+	"bin": "./index.js",
+	"license": "Apache-2.0",
+	"readmeFilename": "README.md",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/asterisk/aeap-speech-to-text.git"
+	},
+	"keywords": [
+		"asterisk",
+		"asterisk external application protocol",
+		"aeap",
+		"speech"
+	],
+	"dependencies": {
+		"@google-cloud/speech": "^4.9.0",
+		"ws": "^8.3.0",
+		"yargs": "^17.3.1"
+	}
+}
