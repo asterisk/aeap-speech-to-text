@@ -1,3 +1,6 @@
+# Work in progress
+Note, the Asterisk side code for this is still [under review](https://gerrit.asterisk.org/c/asterisk/+/17330) and has not yet merged. If you'd like to test things out you'll need to download the patch from the [review](https://gerrit.asterisk.org/c/asterisk/+/17330), apply it to the Asterisk master branch, and then rebuild Asterisk and reinstall in order for things to work. 
+
 # Asterisk External Speech to Text application
 
 This package contains an example Node.js program that uses the [Asterisk External Application Protocol](https://wiki.asterisk.org/wiki/display/AST/Asterisk+External+Application+Protocol) (AEAP) to facilitate external speech to text translation in Asterisk.
