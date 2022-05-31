@@ -1,9 +1,6 @@
-# Work in progress
-Note, the Asterisk side code for this is still [under review](https://gerrit.asterisk.org/c/asterisk/+/17330) and has not yet merged. If you'd like to test things out you'll need to download the patch from the [review](https://gerrit.asterisk.org/c/asterisk/+/17330), apply it to the Asterisk master branch, and then rebuild Asterisk and reinstall in order for things to work. 
-
 # Asterisk External Speech to Text application
 
-This package contains an example Node.js program that uses the [Asterisk External Application Protocol](https://wiki.asterisk.org/wiki/display/AST/Asterisk+External+Application+Protocol) (AEAP) to facilitate external speech to text translation in Asterisk.
+This package contains an example Node.js program that uses the [Asterisk External Application Protocol](https://wiki.asterisk.org/wiki/pages/viewpage.action?pageId=47875006) (AEAP) to facilitate external speech to text translation in Asterisk 18.12.0+ and 19.4.0+.
 
 ## Description
 
@@ -64,3 +61,9 @@ If things are configured correctly, and the sample program found here is listeni
 4. Once the caller is done speaking their spoken text is printed on the Asterisk CLI.
 5. The Client disconnects from remote application
 6. The call is hung up.
+
+## Other References
+* [Text-to-Speech and Speech-to-Text in Asterisk](https://www.asterisk.org/text-to-speech-and-speech-to-text-in-asterisk/)
+* [Asterisk External Application Protocol: An Intro](https://www.asterisk.org/asterisk-external-application-protocol-an-intro/)
+* [Asterisk External Application Protocol: Speech to Text Engine](https://www.asterisk.org/asterisk-external-application-protocol-speech-to-text-engine/)
+* [Asterisk External Application Protocol: The Framework](https://www.asterisk.org/asterisk-external-application-protocol-the-framework/)
