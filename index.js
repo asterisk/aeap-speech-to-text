@@ -46,7 +46,7 @@ server.on("connection", (client) => {
 		codecs: codecs,
 		languages: languages,
 		transport: client,
-		provider: getProvider("google", argv),
+		provider: getProvider("aws", argv),
 	});
 });
 
