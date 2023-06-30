@@ -20,6 +20,7 @@
 	"dependencies": {
 		"@aws-sdk/client-transcribe-streaming": "^3.362.0",
 		"@google-cloud/speech": "^4.9.0",
+		"wavefile": "^11.0.0",
 		"ws": "^8.3.0",
 		"yargs": "^17.3.1"
 	}
