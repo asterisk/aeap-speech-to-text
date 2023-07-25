@@ -33,6 +33,11 @@ const argv = require("yargs/yargs")(process.argv.slice(2))
 			type: "number",
 			group: "Server",
 		},
+		provider: {
+			desc: "Speech-to-text provider",
+			default: "google",
+			type: "string",
+		},
 	})
 	.strict()
 	.argv;
@@ -46,7 +51,7 @@ server.on("connection", (client) => {
 		codecs: codecs,
 		languages: languages,
 		transport: client,
-		provider: getProvider("aws", argv),
+		provider: getProvider(argv.provider, argv),
 	});
 });
 
